@@ -1,2 +1,4 @@
-# Skibidi
-idk man
+# Goals of this project:
+- Make a website
+# Progress:
+- 1%
