@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)https://thepizzaedition.github.io/assets/mainstorage/clusterrush.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/x-icon" href="https://thepizzaedition.github.io/images/pizzalogo.png">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pizza Edition</title>
+    <link id="favicon" rel="icon" href="./favicon.js.download" type="image/x-icon">
+    <script src="./favicon.js.download"></script>
+    <script src="./panickey.js.download"></script>
+    <script src="./confirmation.js.download"></script>
+    <link href="./css2" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fullg.css">
+</head>
+<body>
+    <div class="embed-container">
+
+        <div id="overlay" style="display: none;">
+            <img src="./cluster-min.png" alt="Play Image">
+            <div class="overlay-content">
+                <div class="game-title">Cluster Rush</div>
+                <div class="developer-info">BY: Creator</div>
+                <button id="play-btn">Play Now!</button>
+            </div>
+        </div>
+        <iframe id="embed-frame" src="./index.html"></iframe>
+        </div>
+    
+    <script>
+        document.getElementById('play-btn').addEventListener('click', function() {
+            const iframe = document.getElementById('embed-frame');
+            iframe.src = "/assets/allgames/ClusterRush/index.html"; 
+            document.getElementById('overlay').style.display = 'none'; 
+        });
+
+
+    </script>
+
+</body></html>
